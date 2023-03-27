@@ -7,10 +7,10 @@ metros_quadrados = float(metros_quadrados)
 # 1 lata = 18 litros
 # 1 lata = 54 m²
 
-qtd_de_latas = metros_quadrados // 54
+qtd_de_latas = int(metros_quadrados // 54)
 if(metros_quadrados / 54 > qtd_de_latas):
   qtd_de_latas = qtd_de_latas + 1
-valor_total = qtd_de_latas * 80
+valor_total = int(qtd_de_latas * 80)
 
 # As duas variáveis qtd_de_latas e valor_total devem guardar a resposta do problema
 # Troque os zeros pelos valores corretos.
